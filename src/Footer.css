@@ -1,0 +1,15 @@
+.foot {
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.foot a {
+    display: inline-block;
+    text-decoration: none;
+    color: #918E9B;
+    font-size: 38px;
+    padding: 20px 15px;
+}

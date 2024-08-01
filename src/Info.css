@@ -1,0 +1,75 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info--img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.info--name {
+    margin-bottom: 1px;
+    font-size: 32px;
+}
+
+.info--job_title {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #d8aa8a;
+}
+
+.info--website {
+    margin: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.info--links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .info--links {
+        flex-direction: column;
+    }
+}
+
+.info--links > * {
+    display: inline-block;
+    margin: 10px;
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.email {
+    background-color: white;
+    color: black;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: white;
+}
+
+.fa-envelope {
+    margin-right: 13px;
+}
+.fa-linkedin-square {
+    margin-right: 13px;
+}
