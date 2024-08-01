@@ -1,13 +1,13 @@
 .App {
     max-width: 400px;
-    background-color: #23252C;
+    /* background-color: #23252C; */
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     margin:auto;
     margin-top: 50px;
-    padding: 40px 150px;
+    /* padding: 40px 150px; */
 }
 
 .App-content {
